@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Nguyễn lê Khóa",
+	"Ma_so": "HS_70",
+	"CMND": "020402011",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-02-28T17:00:00.000Z",
+	"Dia_chi": "106 Bạch đắc đan Tân,Phường 9,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

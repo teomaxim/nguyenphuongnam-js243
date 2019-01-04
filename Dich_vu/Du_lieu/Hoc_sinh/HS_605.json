@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Ôn thế Quyền",
+	"Ma_so": "HS_605",
+	"CMND": "020756074",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-06-07T17:00:00.000Z",
+	"Dia_chi": "57 Hà ngọc Thủy,Phường 4,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-20T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-25T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

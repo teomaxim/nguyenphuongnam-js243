@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Nguyễn hà minh Châu",
+	"Ma_so": "HS_47",
+	"CMND": "020747128",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-08-11T17:00:00.000Z",
+	"Dia_chi": "461 Trầm cao quang Mỹ,Phường 4,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-20T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

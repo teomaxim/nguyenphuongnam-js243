@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Đinh gia Thiết",
+	"Ma_so": "HS_274",
+	"CMND": "030102068",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-12-26T17:00:00.000Z",
+	"Dia_chi": "322 Lâm gia kim Bảo,Phường 3,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

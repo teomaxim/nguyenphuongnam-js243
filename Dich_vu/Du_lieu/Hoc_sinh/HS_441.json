@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Dương thành Quân",
+	"Ma_so": "HS_441",
+	"CMND": "060740320",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-09-06T17:00:00.000Z",
+	"Dia_chi": "459 Nhữ ngọc minh Tâm,Phường 5,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": []
+}

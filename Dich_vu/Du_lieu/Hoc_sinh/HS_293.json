@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Phi kiến liên Trúc",
+	"Ma_so": "HS_293",
+	"CMND": "070187880",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-02-09T17:00:00.000Z",
+	"Dia_chi": "460 Công ngọc phi Lan,Phường 8,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": []
+}

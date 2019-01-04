@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Hoa cao Táo",
+	"Ma_so": "HS_475",
+	"CMND": "060203160",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-12-23T17:00:00.000Z",
+	"Dia_chi": "143 Lâm thiện Hà,Phường 8,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-16T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

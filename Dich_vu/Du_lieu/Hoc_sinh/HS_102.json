@@ -1,0 +1,26 @@
+{
+	"Ho_ten": "Phạm chiến Hạnh",
+	"Ma_so": "HS_102",
+	"CMND": "040428342",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-12-19T17:00:00.000Z",
+	"Dia_chi": "464 Hứa quyết bảo Châu,Phường 10,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

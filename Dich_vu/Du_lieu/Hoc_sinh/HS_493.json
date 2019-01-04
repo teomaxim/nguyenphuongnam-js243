@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Triệu lý Thành",
+	"Ma_so": "HS_493",
+	"CMND": "060307588",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-08-08T17:00:00.000Z",
+	"Dia_chi": "477 Huỳnh duy Thắng,Phường 3,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-24T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

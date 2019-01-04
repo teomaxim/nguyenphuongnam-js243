@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Bành lý Dung",
+	"Ma_so": "HS_456",
+	"CMND": "080565752",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-02-12T17:00:00.000Z",
+	"Dia_chi": "547 Phạm tiến hồng Thu,Phường 2,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": []
+}

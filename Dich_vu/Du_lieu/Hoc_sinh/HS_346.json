@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Nguyễn đắc hảo Tâm",
+	"Ma_so": "HS_346",
+	"CMND": "050732806",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-05-24T17:00:00.000Z",
+	"Dia_chi": "281 Huỳnh quỳnh Mỹ,Phường 2,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-11T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-25T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

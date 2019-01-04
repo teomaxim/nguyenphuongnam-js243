@@ -1,0 +1,38 @@
+{
+	"Ho_ten": "Lê đình Thục",
+	"Ma_so": "HS_638",
+	"CMND": "010786810",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-10-02T17:00:00.000Z",
+	"Dia_chi": "545 Lâm thiện hải Bích,Phường 2,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-03T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-11T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

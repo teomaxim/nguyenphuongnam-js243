@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Dương gia Trinh",
+	"Ma_so": "HS_229",
+	"CMND": "060635214",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-12T17:00:00.000Z",
+	"Dia_chi": "224 Châu thị bình Minh,Phường 2,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": []
+}

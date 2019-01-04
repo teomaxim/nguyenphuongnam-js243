@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Hồ thị Thạch",
+	"Ma_so": "HS_706",
+	"CMND": "060135234",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-05-31T17:00:00.000Z",
+	"Dia_chi": "472 Bạch ngọc thùy Trang,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-06T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

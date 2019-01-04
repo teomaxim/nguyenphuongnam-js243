@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Đổ kỳ thảo Nguyên",
+	"Ma_so": "HS_502",
+	"CMND": "010338537",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-08-09T17:00:00.000Z",
+	"Dia_chi": "367 Đinh thị Mai,Phường 4,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": []
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nam Shop</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Colo Shop Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header trans_300">
+
+            <!-- Top Navigation -->
+
+            <div class="top_nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="top_nav_left">Miễn phí giao hàng trong nội thành</div>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <div class="top_nav_right">
+                                <ul class="top_nav_menu">
+
+                                    <!-- Currency / Language / My Account -->
+                                    <li class="language">
+                                        <a href="#">
+                                            Vietnam
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <ul class="language_selection">
+                                            <li><a href="#">English</a></li>
+                                            <li><a href="#">Italian</a></li>
+                                            <li><a href="#">German</a></li>
+                                            <li><a href="#">Spanish</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="account">
+                                        <a href="#">
+                                            Tài khoản của tôi
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <ul class="account_selection">
+                                            <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+                                            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng ký</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Navigation -->
+
+            <div class="main_nav_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-right" id="Th_PET">
+                            <nav class="navbar">
+                                <ul class="navbar_menu">
+                                    <li><a href="#" class="Th_Trang_chu">home</a></li>
+                                    <li><a href="#" id="Th_Dia_diem"><i class="fa fa-map"></i> Map</a></li>
+                                </ul>
+                                <ul class="navbar_user">
+                                    <!-- <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li> -->
+                                    <!-- <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li> -->
+                                    <li class="checkout">
+                                        <a href="#">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span id="checkout_items" class="checkout_items">2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="hamburger_container">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- Slider -->
+
+        <!-- <div class="main_slider" style="background-image:url(images/slider_1.jpg)">
+            <div class="container fill_height">
+                <div class="row align-items-center fill_height">
+                    <div class="col">
+                        <div class="main_slider_content">
+                            <h6>Spring / Summer Collection 2017</h6>
+                            <h1>Get up to 30% Off New Arrivals</h1>
+                            <div class="red_button shop_now_button"><a href="#">shop now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Banner -->
+
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="banner_item align-items-center" style="background-image:url(images/banner_1.jpg)">
+                            <div class="banner_category">
+                                <a href="categories.html" class="Th_Trang_chu"><i class="fa fa-home"></i>All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="banner_item align-items-center" style="background-image:url(images/banner_2.jpg)">
+                            <div class="banner_category">
+                                <a href="categories.html" id="Th_Android"><i class="fa fa-android"></i> Android</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="banner_item align-items-center" style="background-image:url(images/banner_3.jpg)">
+                            <div class="banner_category">
+                                <a href="categories.html" id="Th_Iphone"><i class="fa fa-apple"></i> Iphone</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Arrivals -->
+
+        <div class="new_arrivals">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="section_title new_arrivals_title">
+                            <h2>Danh sách điện thoại</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col text-center">
+                        <div class="new_arrivals_sorting">
+                            <ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
+                                <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked"
+                                    data-filter="*" id="Th_Thong_bao">all</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid mt-1">
+                    <div id="Th_Phan_trang">Phân trang TOP</div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="product-grid" id="Th_Cha">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mt-1">
+                    <div id="Th_Phan_trang_B">Phân trang Bootom</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deal of the week -->
+
+        <div class="deal_ofthe_week">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="deal_ofthe_week_img">
+                            <img src="images/deal_ofthe_week.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-right deal_ofthe_week_col">
+                        <div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
+                            <div class="section_title">
+                                <h2>Siêu hạ giá sắp tới</h2>
+                            </div>
+                            <ul class="timer">
+                                <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                                    <div id="day" class="timer_num">03</div>
+                                    <div class="timer_unit">Ngày</div>
+                                </li>
+                                <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                                    <div id="hour" class="timer_num">15</div>
+                                    <div class="timer_unit">Giờ</div>
+                                </li>
+                                <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                                    <div id="minute" class="timer_num">45</div>
+                                    <div class="timer_unit">Phút</div>
+                                </li>
+                                <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                                    <div id="second" class="timer_num">23</div>
+                                    <div class="timer_unit">Giây</div>
+                                </li>
+                            </ul>
+                            <div class="red_button deal_ofthe_week_button"><a href="#">Mua Ngay</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg d-none" id="Th_Show" data-toggle="modal" data-target="#modelId">
+        Launch
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-danger" id="modelTitleId"></h4>
+                    <button type="button" id="Th_Close" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body" id="Th_Chi_tiet">
+
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="../Xu_ly/Xu_ly_3L.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw3QZ5hhReTIJLSWz7o_582Wm3p6PV-EM&language=vi"></script>
+    <script>
+        var limit = 10
+        var Du_lieu = Doc_Danh_sach_Dien_thoai();
+        var Danh_sach_Dien_thoai = Du_lieu.Danh_sach_Dien_thoai
+        console.log(Danh_sach_Dien_thoai)
+        var Cua_hang = Du_lieu.Cua_hang
+        var map
+        var geocoder = new google.maps.Geocoder();
+        Xuat_Thong_tin_Cua_hang(Cua_hang, Th_PET);
+        // document.addEventListener('touchstart', handler, true);
+
+        //////// tạo bản đồ cửa hàng
+        Th_Dia_diem.onclick = (e) => {
+            e.preventDefault();
+            console.log('asdasd');
+
+            modelId.childNodes[1].setAttribute("style", "max-width:50rem")
+
+            Th_Chi_tiet.style.height = "30rem"
+
+            Hien_thi_vi_tri_Cong_ty(Cua_hang)
+            Th_Show.click()
+        }
+
+        function Khoi_tao_Ban_do() {
+
+            var latlng = new google.maps.LatLng(10.8195322, 106.769412); // Vĩ độ, Kinh độ Tp Hồ Chí Minh
+            var myOptions = {
+                zoom: 16,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                disableDefaultUI: true
+            };
+            map = new google.maps.Map(Th_Chi_tiet, myOptions);
+        }
+
+        function Hien_thi_vi_tri_Cong_ty(Cua_hang) {
+            modelTitleId.innerHTML = `${Cua_hang.Ten} - ${Cua_hang.Dien_thoai} `
+            geocoder.geocode({
+                'address': Cua_hang.Dia_chi
+            }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location,
+                        title: `${Cua_hang.Ten} - ${Cua_hang.Dien_thoai} `
+                    });
+
+                    if (results[0].formatted_address) {
+                        region = results[0].formatted_address + '<br />';
+                    }
+                    var infowindow = new google.maps.InfoWindow({
+                        content: '<div style =width:500px; height:400px;><h5>' + Cua_hang.Ten +
+                            '</h5><br/>Địa chỉ:' + region + '<br/>LatLng:' + results[0].geometry.location +
+                            '</div>'
+                    });
+                    infowindow.open(map, marker);
+                    google.maps.event.addListener(marker, 'click', function () {
+                        // Calling the open method of the infoWindow 
+                        infowindow.open(map, marker);
+                    });
+                } else {
+                    alert("Geocode was not successful for the following reason: " + status);
+                }
+            });
+            Khoi_tao_Ban_do()
+        }
+
+
+        // tạo danh sách điện thoại
+        if (Danh_sach_Dien_thoai.length > 0) {
+
+            Xuat_Danh_sach_Phan_trang(Danh_sach_Dien_thoai, Th_Thong_bao, 0, limit)
+
+            if (Danh_sach_Dien_thoai.length > parseInt(limit)) {
+                Tao_The_Hien_Phan_trang(Danh_sach_Dien_thoai, limit, Th_Phan_trang)
+                Tao_The_Hien_Phan_trang(Danh_sach_Dien_thoai, limit, Th_Phan_trang_B)
+            }
+            //Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+        } else {
+            Th_Thong_bao.innerHTML = "Lỗi đọc dữ liệu"
+        }
+        // Phân trang
+        function Tao_The_Hien_Phan_trang(Danh_sach, So_san_pham_cho_mot_trang, Th_Cha) {
+            var Tong_so_san_pham = Danh_sach.length
+            var Tong_trang = (Tong_so_san_pham % So_san_pham_cho_mot_trang == 0) ? Tong_so_san_pham /
+                So_san_pham_cho_mot_trang : parseInt(Tong_so_san_pham / So_san_pham_cho_mot_trang) + 1
+            var noi_dung_HTML = `<nav aria-label="Page navigation example">`
+            noi_dung_HTML += `
+            <ul class="pagination justify-content-center">
+            `
+            for (var i = 1; i <= Tong_trang; i++) {
+                var vt = (i - 1) * So_san_pham_cho_mot_trang
+                noi_dung_HTML +=
+                    `<li class="page-item"><a class="page-link" href="javaScript:void(0)" onclick="Xuat_Danh_sach_Phan_trang(Danh_sach_Dien_thoai, Th_Thong_bao,${vt} ,${limit})" >${i}</a></li>`
+            }
+            noi_dung_HTML += `
+            </ul>
+            </nav>
+            `
+            Th_Cha.innerHTML = noi_dung_HTML
+        }
+
+        function Xuat_Danh_sach_Phan_trang(Danh_sach, Th_thong_bao, vt, limit) {
+            Th_Cha.innerHTML = ""
+            var dem = 0
+            Danh_sach.forEach((Dien_thoai, index) => {
+                var The_hien = Tao_The_hien_Dien_thoai(Dien_thoai, Th_Cha)
+                if (index >= vt && dem < limit) {
+                    The_hien.childNodes[0].onclick = () => {
+                        var Dien_thoai = The_hien.childNodes[0].parentNode.getAttribute("data")
+                        sessionStorage.setItem("giohang", Dien_thoai)
+                        window.location = "MH_Gio_hang.html"
+                    }
+                    The_hien.childNodes[1].onclick = () => {
+                        var Dien_thoai_Chon = JSON.parse(The_hien.childNodes[1].parentNode.getAttribute(
+                            "data"))
+                        var noi_dung_HTML =
+                            `
+                        <h4 class="text-primary">${Dien_thoai_Chon.Ten}</h4>
+                        <img src="https://dichvumedia.herokuapp.com/${Dien_thoai_Chon.Ma_so}.png" />
+                    `
+                        Th_Chi_tiet.innerHTML = noi_dung_HTML
+                        Th_Show.click()
+                    }
+                    dem++
+                } else {
+                    The_hien.style.cssText = "display:none"
+                }
+
+            });
+            Th_Thong_bao.innerHTML = `Danh sách Điện thoại (${Danh_sach.length})`
+        }
+        // Kết thúc Phân trang
+
+
+        function Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_thong_bao) {
+            Th_Cha.innerHTML = ""
+            Danh_sach_Dien_thoai.forEach(Dien_thoai => {
+                var The_hien = Tao_The_hien_Dien_thoai(Dien_thoai, Th_Cha)
+                The_hien.childNodes[0].onclick = () => {
+                    //The_hien.childNodes[0].classList.toggle("CHON")
+                    var Dien_thoai = The_hien.childNodes[0].parentNode.getAttribute("data")
+                    sessionStorage.setItem("giohang", Dien_thoai)
+                    window.location = "MH_Gio_hang.html"
+                }
+                The_hien.childNodes[1].onclick = () => {
+                    //console.log(The_hien.childNodes[1].parentNode.getAttribute("data"))
+                    var Dien_thoai_Chon = JSON.parse(The_hien.childNodes[1].parentNode.getAttribute("data"))
+                    var noi_dung_HTML =
+                        `
+                        <h4 class="text-primary">${Dien_thoai_Chon.Ten}</h4>
+                        <img src="http://localhost:1001/${Dien_thoai_Chon.Ma_so}.png" />
+                    `
+                    Th_Chi_tiet.innerHTML = noi_dung_HTML
+                    Th_Show.click()
+                }
+
+
+            });
+            Th_Thong_bao.innerHTML = `Danh sách Điện thoại (${Danh_sach_Dien_thoai.length})`
+        }
+
+        var ThTranChu = document.querySelectorAll('.Th_Trang_chu');
+        console.log(ThTranChu);
+        
+        ThTranChu.forEach((btn)=> {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+                console.log('asdasd');
+            })
+        })
+        
+        // ThTranChu.click = (e) => {
+        //     e.preventDefault();
+        //     console.log(asdasd);
+            
+        //     Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+        // }
+        Th_Android.onclick = (e) => {
+            e.preventDefault();
+            console.log(e.target);
+            
+            var Danh_sach_Dien_thoai_theo_Nhom = Danh_sach_Dien_thoai.filter(x => x.Nhom_Dien_thoai.Ma_so ==
+            "ANDROID")
+            Xuat_Danh_sach(Danh_sach_Dien_thoai_theo_Nhom, Th_Thong_bao)
+        }
+        Th_Iphone.onclick = (e) => {
+            e.preventDefault();
+            var Danh_sach_Dien_thoai_theo_Nhom = Danh_sach_Dien_thoai.filter(x => x.Nhom_Dien_thoai.Ma_so ==
+                "IPHONE")
+            Xuat_Danh_sach(Danh_sach_Dien_thoai_theo_Nhom, Th_Thong_bao)
+        }
+    </script>
+</body>
+
+</html>

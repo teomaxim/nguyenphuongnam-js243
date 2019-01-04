@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Nguyên phước Hùng",
+	"Ma_so": "HS_699",
+	"CMND": "040255460",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-08-26T17:00:00.000Z",
+	"Dia_chi": "509 Nguyễn quyết Châu,Phường 8,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-25T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

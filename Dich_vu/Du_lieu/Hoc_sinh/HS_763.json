@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Ngô văn cẩm Thúy",
+	"Ma_so": "HS_763",
+	"CMND": "030635618",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-06-05T17:00:00.000Z",
+	"Dia_chi": "547 Liên ngọc liên Trúc,Phường 10,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

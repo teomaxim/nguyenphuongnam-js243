@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Kiều thị Mai",
+	"Ma_so": "HS_532",
+	"CMND": "030772373",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-03-23T17:00:00.000Z",
+	"Dia_chi": "233 Trương lý Nguyên,Phường 9,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.5",
+		"Ma_so": "LOP_8.5",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-06T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-11T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

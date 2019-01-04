@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Hứa thanh Tráng",
+	"Ma_so": "HS_36",
+	"CMND": "060247644",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-04-19T17:00:00.000Z",
+	"Dia_chi": "76 Mai hà Nhung,Phường 7,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-02T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

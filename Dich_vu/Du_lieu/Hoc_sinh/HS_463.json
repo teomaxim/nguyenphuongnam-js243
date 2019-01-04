@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Đổ sơn Đông",
+	"Ma_so": "HS_463",
+	"CMND": "050248417",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-06-02T17:00:00.000Z",
+	"Dia_chi": "490 Đồng kỳ Khuê,Phường 8,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-02T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-25T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

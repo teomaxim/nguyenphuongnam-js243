@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Bàng hà Đại",
+	"Ma_so": "HS_44",
+	"CMND": "050512164",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-08-13T17:00:00.000Z",
+	"Dia_chi": "365 Lê bích Dung,Phường 3,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

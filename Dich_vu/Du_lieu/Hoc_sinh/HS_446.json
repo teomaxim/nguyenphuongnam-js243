@@ -1,0 +1,26 @@
+{
+	"Ho_ten": "Đặng tiến bảo Châu",
+	"Ma_so": "HS_446",
+	"CMND": "040315023",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-10-08T17:00:00.000Z",
+	"Dia_chi": "249 Hồ phạm Trinh,Phường 5,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-20T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

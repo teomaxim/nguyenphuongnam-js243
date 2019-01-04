@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Lê văn thụy Trang",
+	"Ma_so": "HS_370",
+	"CMND": "050377003",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-07-17T17:00:00.000Z",
+	"Dia_chi": "90 Bạch bích minh Châu,Phường 2,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-10T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-20T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-24T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

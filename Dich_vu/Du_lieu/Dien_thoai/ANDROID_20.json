@@ -1,0 +1,25 @@
+{
+	"Ten": "Asus ZenFone Live ZB501KL",
+	"Ma_so": "ANDROID_20",
+	"Don_gia_Ban": 9240000,
+	"Don_gia_Nhap": 8240000,
+	"Nhom_Dien_thoai": {
+		"Ten": "Android",
+		"Ma_so": "ANDROID"
+	},
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": [],
+	"Danh_sach_Phieu_Nhap": [
+		{
+			"Ngay": "2018-04-20T02:52:11.072Z",
+			"So_luong": 10,
+			"Don_gia": 8240000,
+			"Tien": 82400000,
+			"Nhan_vien": {
+				"Ho_Ten": "Trần Tiến Quang",
+				"Ma_so": "NV_2"
+			},
+			"So_Phieu_Nhap": 1
+		}
+	]
+}

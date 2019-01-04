@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Bạch kiên Dung",
+	"Ma_so": "HS_33",
+	"CMND": "050701676",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-07-15T17:00:00.000Z",
+	"Dia_chi": "295 Phi thị Thục,Phường 10,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.1",
+		"Ma_so": "LOP_6.1",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-03T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-24T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

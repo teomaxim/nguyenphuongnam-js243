@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Ôn văn Song",
+	"Ma_so": "HS_737",
+	"CMND": "050602428",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-05-21T17:00:00.000Z",
+	"Dia_chi": "218 Bành phước thục Mai,Phường 3,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-09T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

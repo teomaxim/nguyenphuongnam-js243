@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Hà thiện Cương",
+	"Ma_so": "HS_704",
+	"CMND": "030567043",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-02-02T17:00:00.000Z",
+	"Dia_chi": "522 Phạm cao Tế,Phường 5,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-02T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		}
+	]
+}

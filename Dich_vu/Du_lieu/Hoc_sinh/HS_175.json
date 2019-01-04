@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Hoa đình Huy",
+	"Ma_so": "HS_175",
+	"CMND": "030134173",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-09-09T17:00:00.000Z",
+	"Dia_chi": "246 Bạch thị Lan,Phường 2,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": []
+}

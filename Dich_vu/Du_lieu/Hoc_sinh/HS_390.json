@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Công hùng Trang",
+	"Ma_so": "HS_390",
+	"CMND": "070534536",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-02-25T17:00:00.000Z",
+	"Dia_chi": "447 Ôn sơn Quân,Phường 8,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-10T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

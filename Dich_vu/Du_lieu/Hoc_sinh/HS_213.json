@@ -1,0 +1,26 @@
+{
+	"Ho_ten": "Bùi tắc thảo Trúc",
+	"Ma_so": "HS_213",
+	"CMND": "010868060",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-05-08T17:00:00.000Z",
+	"Dia_chi": "223 Đồng đình Bích,Phường 2,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

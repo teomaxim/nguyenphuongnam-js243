@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Trường thanh ngọc Dung",
+	"Ma_so": "HS_495",
+	"CMND": "020454376",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-09-17T17:00:00.000Z",
+	"Dia_chi": "167 Hoa cao trầm Long,Phường 5,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Triệu thiện ngọc Dung",
+	"Ma_so": "HS_719",
+	"CMND": "040661787",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-05-24T17:00:00.000Z",
+	"Dia_chi": "240 Nguyễn phước khánh Ngọc,Phường 4,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": []
+}

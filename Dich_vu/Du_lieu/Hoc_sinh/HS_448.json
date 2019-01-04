@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Phí triệu bích Châu",
+	"Ma_so": "HS_448",
+	"CMND": "020474808",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-07-24T17:00:00.000Z",
+	"Dia_chi": "234 Đặng quỳnh Khang,Phường 4,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-06T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

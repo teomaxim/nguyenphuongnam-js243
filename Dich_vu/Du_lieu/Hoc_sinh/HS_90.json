@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Lâm thanh Sơn",
+	"Ma_so": "HS_90",
+	"CMND": "050174361",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-07-15T17:00:00.000Z",
+	"Dia_chi": "107 Hứa ngọc Tạo,Phường 4,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-09T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

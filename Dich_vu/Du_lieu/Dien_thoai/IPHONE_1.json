@@ -1,0 +1,53 @@
+{
+	"Ten": "Apple iPhone 7 Plus",
+	"Ma_so": "IPHONE_1",
+	"Don_gia_Ban": 14720000,
+	"Don_gia_Nhap": 12720000,
+	"Nhom_Dien_thoai": {
+		"Ten": "iphone",
+		"Ma_so": "IPHONE"
+	},
+	"Danh_sach_Phieu_Dat": [
+		{
+			"Ngay_Dat_hang": "2018-04-20T03:08:18.166Z",
+			"Ngay_Giao_hang": "2018-04-20T03:08:18.166Z",
+			"So_luong": "1",
+			"Don_gia_Ban": 14720000,
+			"Tien": 14720000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Khach_hang": {
+				"Ho_ten": "Tuấn Tú",
+				"Dien_thoai": "0123456789",
+				"Email": "tu@gmail.com",
+				"Dia_chi": "227 Nguyễn Văn Cừ Tp Hồ Chí Minh"
+			},
+			"So_Phieu_Dat": 1
+		}
+	],
+	"Danh_sach_Phieu_Ban": [
+		{
+			"Ngay": "2018-04-20T09:41:04.883Z",
+			"So_luong": "1",
+			"Don_gia_Ban": 14720000,
+			"Tien": 14720000,
+			"Nhan_vien": {
+				"Ho_ten": "Trần Anh",
+				"Ma_so": "NV_3"
+			},
+			"So_Phieu_Ban": 1
+		}
+	],
+	"Danh_sach_Phieu_Nhap": [
+		{
+			"Ngay": "2018-04-20T02:52:11.072Z",
+			"So_luong": 10,
+			"Don_gia": 12720000,
+			"Tien": 127200000,
+			"Nhan_vien": {
+				"Ho_Ten": "Trần Tiến Quang",
+				"Ma_so": "NV_2"
+			},
+			"So_Phieu_Nhap": 1
+		}
+	]
+}

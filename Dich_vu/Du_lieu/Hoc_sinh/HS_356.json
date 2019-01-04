@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Nguyễn hồng ngọc Liên",
+	"Ma_so": "HS_356",
+	"CMND": "060438338",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-06-13T17:00:00.000Z",
+	"Dia_chi": "522 Bành sơn tuấn Tài,Phường 9,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

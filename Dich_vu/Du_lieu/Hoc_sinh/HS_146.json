@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Phí kiên Cương",
+	"Ma_so": "HS_146",
+	"CMND": "070820168",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-03-02T17:00:00.000Z",
+	"Dia_chi": "409 Hứa nam bảo Châu,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": []
+}

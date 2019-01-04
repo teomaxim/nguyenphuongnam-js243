@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Phạm triệu Sơn",
+	"Ma_so": "HS_280",
+	"CMND": "030212226",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-04-13T17:00:00.000Z",
+	"Dia_chi": "64 Đặng thanh tuấn Tài,Phường 3,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

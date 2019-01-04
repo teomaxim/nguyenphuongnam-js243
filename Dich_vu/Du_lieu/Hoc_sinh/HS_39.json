@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Triệu văn hảo Khiêm",
+	"Ma_so": "HS_39",
+	"CMND": "050471631",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-09-02T17:00:00.000Z",
+	"Dia_chi": "387 Cao bích Đông,Phường 6,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

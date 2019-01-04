@@ -1,0 +1,26 @@
+{
+	"Ho_ten": "Lý bảo đổ Quyên",
+	"Ma_so": "HS_480",
+	"CMND": "070501400",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-05-12T17:00:00.000Z",
+	"Dia_chi": "9 Lâm hùng Hiền,Phường 6,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-09T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

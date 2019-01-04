@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Võ hồng trang Đài",
+	"Ma_so": "HS_281",
+	"CMND": "080102275",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-06-25T17:00:00.000Z",
+	"Dia_chi": "69 Hà phước Bảo,Phường 5,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-03T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

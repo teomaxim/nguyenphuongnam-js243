@@ -1,0 +1,42 @@
+{
+	"Ho_ten": "Thái tiến thụy Lan",
+	"Ma_so": "HS_122",
+	"CMND": "020550623",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-09-26T17:00:00.000Z",
+	"Dia_chi": "161 Tô ngọc ngọc Châu,Phường 10,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.4",
+		"Ma_so": "LOP_6.4",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-03T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-09T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-16T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

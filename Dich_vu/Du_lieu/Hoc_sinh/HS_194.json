@@ -1,0 +1,42 @@
+{
+	"Ho_ten": "Lê duy cẩm Thúy",
+	"Ma_so": "HS_194",
+	"CMND": "020271871",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-24T17:00:00.000Z",
+	"Dia_chi": "65 Hoa phạm Khuê,Phường 2,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

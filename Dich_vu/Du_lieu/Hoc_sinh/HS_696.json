@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Cao viết Sơn",
+	"Ma_so": "HS_696",
+	"CMND": "080613208",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-12-18T17:00:00.000Z",
+	"Dia_chi": "9 Dương đình gia Trưởng,Phường 1,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": []
+}

@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Liên đắc thúy Hạnh",
+	"Ma_so": "HS_769",
+	"CMND": "070606114",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-12-04T17:00:00.000Z",
+	"Dia_chi": "352 Bùi ngọc Hoa,Phường 1,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": []
+}

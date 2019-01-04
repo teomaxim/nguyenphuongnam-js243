@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ứng dụng Khách - Cửa hàng Điện thoại</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .CHON {
+        border: 1px solid blue;
+        opacity: 0.5;
+    }
+</style>
+
+<body>
+    <div class="container-fluid btn" id="Th_PET">
+
+    </div>
+    <div class="container-fluid">
+
+        <div class="float-left">
+            <button type="button" class="btn btn-lg btn-outline-danger" id="Th_Trang_chu">
+                <i class="fa fa-home"></i>
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-danger" id="Th_Android">
+                <i class="fa fa-android"></i>
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-danger" id="Th_Iphone">
+
+                <i class="fa fa-apple"></i>
+
+            </button>
+            <button type="button" class="btn btn-lg btn-success" id="Th_Dia_diem">
+                <i class="fa fa-map"></i>
+                Xem Địa điểm Cửa hàng
+            </button>
+            <button type="button" class="btn btn-lg btn-success" id="Th_Tai_tap_tin">
+                <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                Đơn Tuyển dụng
+            </button>
+            <button type="button" class="btn btn-lg btn-success" id="Th_Nop_don">
+                <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                Nộp Đơn Tuyển dụng
+            </button>
+        </div>
+        <div class="float-right">
+            <div class="row">
+                <div class="btn">
+                    <input placeholder="Nhập Tên Điện thoại ..." type="text" class="btn btn-outline-danger" onkeyup="KeyCode(event)"
+                        style="width:20rem" id="Th_Gia_tri_Tim">
+                    <i class="fa fa-search mr-3" id="Th_Tim"></i>
+                </div>
+                <div class="btn">
+                    <select class="btn btn-outline-danger" onchange="Xuat_Dien_thoai_theo_Don_gia(this.value)">
+                        <option value="0-50000000">Lọc Điện thoại theo Đơn giá Bán</option>
+                        <option value="0-2000000">Đơn giá Bán dưới 2 triệu </option>
+                        <option value="2000000-4000000">Đơn giá Bán lớn 2 triệu và nhỏ 4 triệu </option>
+                        <option value="4000000-50000000">Đơn giá Bán lớn 4 triệu </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid btn clearfix text-right">
+        <button type="button" class="btn btn-outline" id="Th_Tang" onclick="Sap_Tang()">
+            <i class="fa fa-sort-alpha-asc"></i>
+        </button>
+        <button type="button" class="btn btn-outline" id="Th_Giam" onclick="Sap_Giam()">
+            <i class="fa fa-sort-alpha-desc"></i>
+        </button>
+    </div>
+    <div class="container-fluid">
+        <div class="btn btn-outline-danger btn-block" id="Th_Thong_bao">
+            KHUNG THÔNG BÁO
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-1">
+        <div id="Th_Phan_trang">Phân trang TOP</div>
+    </div>
+
+
+    <div class="container-fluid">
+        <fieldset class="btn">
+            <legend></legend>
+            <div class="row" style="margin: auto; width: 90%" id="Th_Cha"></div>
+        </fieldset>
+
+    </div>
+    <div class="container-fluid mt-1">
+        <div id="Th_Phan_trang_B">Phân trang Bootom</div>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg d-none" id="Th_Show" data-toggle="modal" data-target="#modelId">
+        Launch
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-danger" id="modelTitleId"></h4>
+                    <button type="button" id="Th_Close" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body" id="Th_Chi_tiet">
+
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="../Xu_ly/Xu_ly_3L.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw3QZ5hhReTIJLSWz7o_582Wm3p6PV-EM&language=vi"></script>
+    <script>
+        var limit = 9
+        var Du_lieu = Doc_Danh_sach_Dien_thoai();
+        var Danh_sach_Dien_thoai = Du_lieu.Danh_sach_Dien_thoai
+        console.log(Danh_sach_Dien_thoai)
+        var Cua_hang = Du_lieu.Cua_hang
+        var map
+        var geocoder = new google.maps.Geocoder();
+        Xuat_Thong_tin_Cua_hang(Cua_hang, Th_PET)
+        if (Danh_sach_Dien_thoai.length > 0) {
+            
+            Xuat_Danh_sach_Phan_trang(Danh_sach_Dien_thoai, Th_Thong_bao, 0, limit)
+            
+            if (Danh_sach_Dien_thoai.length > parseInt(limit)) {
+                Tao_The_Hien_Phan_trang(Danh_sach_Dien_thoai, limit, Th_Phan_trang)
+                Tao_The_Hien_Phan_trang(Danh_sach_Dien_thoai, limit, Th_Phan_trang_B)
+            }
+            //Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+        } else {
+            Th_Thong_bao.innerHTML = "Lỗi đọc dữ liệu"
+        }
+
+        // Phân trang
+        function Tao_The_Hien_Phan_trang(Danh_sach, So_san_pham_cho_mot_trang, Th_Cha) {
+            var Tong_so_san_pham = Danh_sach.length
+            var Tong_trang = (Tong_so_san_pham % So_san_pham_cho_mot_trang == 0) ? Tong_so_san_pham / So_san_pham_cho_mot_trang : parseInt(Tong_so_san_pham / So_san_pham_cho_mot_trang) + 1
+            var noi_dung_HTML = `<nav aria-label="Page navigation example">`
+            noi_dung_HTML += `
+            <ul class="pagination justify-content-center">
+            `
+            for (var i = 1; i <= Tong_trang; i++) {
+                var vt = (i - 1) * So_san_pham_cho_mot_trang
+                noi_dung_HTML += `<li class="page-item"><a class="page-link" href="javaScript:void(0)" onclick="Xuat_Danh_sach_Phan_trang(Danh_sach_Dien_thoai, Th_Thong_bao,${vt} ,${limit})" >${i}</a></li>`
+            }
+            noi_dung_HTML += `
+            </ul>
+            </nav>
+            `
+            Th_Cha.innerHTML = noi_dung_HTML
+        }
+
+        function Xuat_Danh_sach_Phan_trang(Danh_sach, Th_thong_bao, vt, limit) {
+            Th_Cha.innerHTML = ""
+            var dem = 0
+            Danh_sach.forEach((Dien_thoai, index) => {
+                var The_hien = Tao_The_hien_Dien_thoai(Dien_thoai, Th_Cha)
+                if (index >= vt && dem < limit) {
+                    The_hien.childNodes[0].onclick = () => {
+                        var Dien_thoai = The_hien.childNodes[0].parentNode.getAttribute("data")
+                        sessionStorage.setItem("giohang", Dien_thoai)
+                        window.location = "MH_Gio_hang.html"
+                    }
+                    The_hien.childNodes[1].onclick = () => {
+                        var Dien_thoai_Chon = JSON.parse(The_hien.childNodes[1].parentNode.getAttribute("data"))
+                        var noi_dung_HTML = `
+                        <h4 class="text-primary">${Dien_thoai_Chon.Ten}</h4>
+                        <img src="https://dichvumedia.herokuapp.com/${Dien_thoai_Chon.Ma_so}.png" />
+                    `
+                        Th_Chi_tiet.innerHTML = noi_dung_HTML
+                        Th_Show.click()
+                    }
+                    dem++
+                } else {
+                    The_hien.style.cssText = "display:none"
+                }
+
+            });
+            Th_Thong_bao.innerHTML = `<h3>Danh sách Điện thoại (${Danh_sach.length}) </h3>`
+        }
+        // Kết thúc Phân trang
+
+
+        function Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_thong_bao) {
+            Th_Cha.innerHTML = ""
+            Danh_sach_Dien_thoai.forEach(Dien_thoai => {
+                var The_hien = Tao_The_hien_Dien_thoai(Dien_thoai, Th_Cha)
+                The_hien.childNodes[0].onclick = () => {
+                    //The_hien.childNodes[0].classList.toggle("CHON")
+                    var Dien_thoai = The_hien.childNodes[0].parentNode.getAttribute("data")
+                    sessionStorage.setItem("giohang", Dien_thoai)
+                    window.location = "MH_Gio_hang.html"
+                }
+                The_hien.childNodes[1].onclick = () => {
+                    //console.log(The_hien.childNodes[1].parentNode.getAttribute("data"))
+                    var Dien_thoai_Chon = JSON.parse(The_hien.childNodes[1].parentNode.getAttribute("data"))
+                    var noi_dung_HTML = `
+                        <h4 class="text-primary">${Dien_thoai_Chon.Ten}</h4>
+                        <img src="http://localhost:1001/${Dien_thoai_Chon.Ma_so}.png" />
+                    `
+                    Th_Chi_tiet.innerHTML = noi_dung_HTML
+                    Th_Show.click()
+                }
+
+
+            });
+            Th_Thong_bao.innerHTML = `<h3>Danh sách Điện thoại (${Danh_sach_Dien_thoai.length}) </h3>`
+        }
+
+
+
+        function Xuat_Dien_thoai_theo_Don_gia(chuoi_dieu_kien) {
+            var Thanh_phan_con = chuoi_dieu_kien.split('-')
+            if (Thanh_phan_con.length > 0) {
+
+                var Danh_sach_Dien_thoai_theo_Gia = Danh_sach_Dien_thoai.filter(x => x.Don_gia_Ban >= Thanh_phan_con[0] && x.Don_gia_Ban <= Thanh_phan_con[1])
+                Xuat_Danh_sach(Danh_sach_Dien_thoai_theo_Gia, Th_Thong_bao)
+            }
+        }
+
+        function Sap_Tang() {
+            // Danh_sach_Dien_thoai.sort((a,b)=>{
+            //     //return a.Don_gia_Ban-b.Don_gia_Ban
+            // })
+            Danh_sach_Dien_thoai.sort((a, b) => a.Ten.localeCompare(b.Ten))
+            Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+        }
+        function Sap_Giam() {
+            // Danh_sach_Dien_thoai.sort((a,b)=>{
+            //     //return b.Don_gia_Ban-a.Don_gia_Ban 
+            // })
+            Danh_sach_Dien_thoai.sort((a, b) => b.Ten.localeCompare(a.Ten))
+            Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+        }
+
+
+        Th_Trang_chu.onclick = () => {
+            Xuat_Danh_sach(Danh_sach_Dien_thoai, Th_Thong_bao)
+        }
+        Th_Android.onclick = () => {
+            var Danh_sach_Dien_thoai_theo_Nhom = Danh_sach_Dien_thoai.filter(x => x.Nhom_Dien_thoai.Ma_so == "ANDROID")
+            Xuat_Danh_sach(Danh_sach_Dien_thoai_theo_Nhom, Th_Thong_bao)
+        }
+        Th_Iphone.onclick = () => {
+            var Danh_sach_Dien_thoai_theo_Nhom = Danh_sach_Dien_thoai.filter(x => x.Nhom_Dien_thoai.Ma_so == "IPHONE")
+            Xuat_Danh_sach(Danh_sach_Dien_thoai_theo_Nhom, Th_Thong_bao)
+        }
+        Th_Tim.onclick = () => {
+            var gtTim = Th_Gia_tri_Tim.value
+            var Danh_sach_Dien_thoai_tim = Danh_sach_Dien_thoai.filter(x => x.Ten.toLowerCase().includes(gtTim.toLowerCase()))
+            Xuat_Danh_sach(Danh_sach_Dien_thoai_tim, Th_Thong_bao)
+            Th_Gia_tri_Tim.value = ""
+        }
+        function KeyCode(event) {
+            if (event.keyCode == 13) {
+                var gtTim = event.target.value
+                var Danh_sach_Dien_thoai_tim = Danh_sach_Dien_thoai.filter(x => x.Ten.toLowerCase().includes(gtTim.toLowerCase()))
+                Xuat_Danh_sach(Danh_sach_Dien_thoai_tim, Th_Thong_bao)
+            }
+        }
+        Th_Tai_tap_tin.onclick = () => {
+            var tap_tin = "Don_Du_tuyen.pdf"
+            var ten_moi = "Don_Du_tuyen_2018"
+            Tai_tap_tin(tap_tin, ten_moi)
+        }
+        Th_Nop_don.onclick = () => {
+            Tao_the_hien_Upload(Th_Chi_tiet)
+            modelId.setAttribute("data-keyboard", false)
+            modelId.setAttribute("data-backdrop", "static")
+            modelTitleId.innerHTML = "Nộp Đơn Dự Tuyển"
+            Th_Show.click()
+        }
+
+
+        Th_Dia_diem.onclick = () => {
+
+
+            modelId.childNodes[1].setAttribute("style", "max-width:50rem")
+
+            Th_Chi_tiet.style.height = "30rem"
+
+            Hien_thi_vi_tri_Cong_ty(Cua_hang)
+            Th_Show.click()
+        }
+        function Khoi_tao_Ban_do() {
+
+            var latlng = new google.maps.LatLng(10.823099, 106.629664); // Vĩ độ, Kinh độ Tp Hồ Chí Minh
+            var myOptions = {
+                zoom: 16,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                disableDefaultUI: true
+            };
+            map = new google.maps.Map(Th_Chi_tiet, myOptions);
+        }
+
+        function Hien_thi_vi_tri_Cong_ty(Cua_hang) {
+
+            modelTitleId.innerHTML = `${Cua_hang.Ten} - ${Cua_hang.Dien_thoai} `
+            geocoder.geocode({
+                'address': Cua_hang.Dia_chi
+            }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location,
+                        title: `${Cua_hang.Ten} - ${Cua_hang.Dien_thoai} `
+                    });
+
+                    if (results[0].formatted_address) {
+                        region = results[0].formatted_address + '<br />';
+                    }
+                    var infowindow = new google.maps.InfoWindow({
+                        content: '<div style =width:500px; height:400px;><h5>' + Cua_hang.Ten + '</h5><br/>Địa chỉ:' + region + '<br/>LatLng:' + results[0].geometry.location + '</div>'
+                    });
+                    infowindow.open(map, marker);
+                    google.maps.event.addListener(marker, 'click', function () {
+                        // Calling the open method of the infoWindow 
+                        infowindow.open(map, marker);
+                    });
+                } else {
+                    alert("Geocode was not successful for the following reason: " + status);
+                }
+            });
+            Khoi_tao_Ban_do()
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+{
+	"Ho_ten": "Phạm đình Thùy",
+	"Ma_so": "HS_82",
+	"CMND": "040425551",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-07-14T17:00:00.000Z",
+	"Dia_chi": "578 Đồng văn Nguyên,Phường 6,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-06T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-10T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-13T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Phạm viết Tạo",
+	"Ma_so": "HS_298",
+	"CMND": "050711713",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-04-12T17:00:00.000Z",
+	"Dia_chi": "358 Hứa triệu Thúy,Phường 10,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-12T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-13T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

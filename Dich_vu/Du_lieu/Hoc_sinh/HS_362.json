@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Nguyễn tiến cẩm Thúy",
+	"Ma_so": "HS_362",
+	"CMND": "060583713",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-02-25T17:00:00.000Z",
+	"Dia_chi": "278 Mai phúc minh Lan,Phường 7,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-26T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Bùi đắc Hoàng",
+	"Ma_so": "HS_716",
+	"CMND": "020668465",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-09-03T17:00:00.000Z",
+	"Dia_chi": "483 Thái sơn Khánh,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-06T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-09T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-10T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

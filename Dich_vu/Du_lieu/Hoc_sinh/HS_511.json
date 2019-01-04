@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Nguyễn thị hảo Tâm",
+	"Ma_so": "HS_511",
+	"CMND": "070463673",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-07-02T17:00:00.000Z",
+	"Dia_chi": "545 Lý đắc Đài,Phường 10,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.5",
+		"Ma_so": "LOP_8.5",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-18T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

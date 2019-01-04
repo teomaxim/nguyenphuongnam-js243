@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Trường kim Thủy",
+	"Ma_so": "HS_310",
+	"CMND": "050861454",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-07-17T17:00:00.000Z",
+	"Dia_chi": "143 Võ bích tuấn Khoa,Phường 9,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": []
+}

@@ -1,0 +1,17 @@
+{
+	"Ho_ten": "Trần lý hồng Châu",
+	"Ma_so": "HS_435",
+	"CMND": "030855486",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-03-31T17:00:00.000Z",
+	"Dia_chi": "490 Hồ sơn Tráng,Phường 6,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": []
+}

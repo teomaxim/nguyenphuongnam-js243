@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Lập trình JavaScript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    #Khung_Chuc_nang{
+        width: 100%;
+        border: none;
+        overflow: hidden;
+        height: 3000vh;
+    }
+    hr{
+        border: 2px double green;
+    }
+</style>
+<body>
+    
+    <div class="container-fluid">
+        <h2>Ứng dụng Biến Đối tượng</h2>
+    </div>
+    <div class="container-fluid">
+        <button type="button" class="btn btn-outline-danger" onclick="Hien_thi_Trang('MH_Doc_Xuat_Bien_Danh_sach.html')">
+            Đọc Xuất Biến Danh sách Điện thoại
+        </button>
+        <button type="button" class="btn btn-outline-danger" onclick="Hien_thi_Trang('MH_Doc_Xuat_HS.html')">
+            Đọc Xuất Biến Danh sách Học sinh
+        </button>
+        <button type="button" class="btn btn-outline-danger" onclick="Hien_thi_Trang('MH_Nhap_Ghi_Bien_Doi_tuong.html')" >
+            Nhập Ghi Biến Danh sách Điện thoại
+        </button>
+        <button type="button" class="btn btn-outline-danger" onclick="Hien_thi_Trang('MH_Nhap_Ghi_Bien_HS.html')" >
+            Nhập Ghi Biến Danh sách Học sinh
+        </button>
+        
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <iframe id="Khung_Chuc_nang"></iframe>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+    function Hien_thi_Trang(trang_hien_thi){
+        Khung_Chuc_nang.src=trang_hien_thi
+    }
+    </script>    
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Phi ngọc đan Tân",
+	"Ma_so": "HS_452",
+	"CMND": "010524373",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-02-11T17:00:00.000Z",
+	"Dia_chi": "172 Công thị Tráng,Phường 1,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-06T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-20T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

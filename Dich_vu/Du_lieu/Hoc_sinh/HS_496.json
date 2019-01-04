@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Bành phúc Long",
+	"Ma_so": "HS_496",
+	"CMND": "010366877",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-05-14T17:00:00.000Z",
+	"Dia_chi": "308 Bùi đình ngọc Liên,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-10T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-19T17:00:00.000Z",
+			"Ly_do": "trốn học"
+		},
+		{
+			"Ngay": "2017-07-23T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

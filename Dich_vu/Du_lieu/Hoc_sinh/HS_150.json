@@ -1,0 +1,22 @@
+{
+	"Ho_ten": "Hứa đình Phán",
+	"Ma_so": "HS_150",
+	"CMND": "020781678",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-08-25T17:00:00.000Z",
+	"Dia_chi": "393 Ôn lê Mai,Phường 4,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

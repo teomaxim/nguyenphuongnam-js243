@@ -1,0 +1,26 @@
+{
+	"Ho_ten": "Võ thị hải Sơn",
+	"Ma_so": "HS_206",
+	"CMND": "060120851",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-12-01T17:00:00.000Z",
+	"Dia_chi": "492 Hứa hữu Châu,Phường 4,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-04T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-27T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}

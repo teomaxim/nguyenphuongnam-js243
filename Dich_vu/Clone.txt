@@ -1,0 +1,11 @@
+﻿=======================================================================
+		var Du_lieu = {}
+                Du_lieu.Danh_sach_Dien_thoai = []
+                Du_lieu_Ung_dung.Danh_sach_Dien_thoai.forEach(Dien_thoai_Goc => {
+                    var Dien_thoai = Object.assign({}, Dien_thoai_Goc)
+                    Du_lieu.Danh_sach_Dien_thoai.push(Dien_thoai)
+                    delete Dien_thoai.Danh_sach_Phieu_Ban
+                    delete Dien_thoai.Danh_sach_Phieu_Dat
+                    delete Dien_thoai.Danh_sach_Phieu_Nhap
+                })
+                Chuoi_Kq = JSON.stringify(Du_lieu)

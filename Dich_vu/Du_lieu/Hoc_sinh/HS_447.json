@@ -1,0 +1,30 @@
+{
+	"Ho_ten": "Phạm thiện Song",
+	"Ma_so": "HS_447",
+	"CMND": "020286377",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-08-01T17:00:00.000Z",
+	"Dia_chi": "331 Hứa sơn Liên,Phường 2,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2017-07-05T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-10T17:00:00.000Z",
+			"Ly_do": ""
+		},
+		{
+			"Ngay": "2017-07-17T17:00:00.000Z",
+			"Ly_do": ""
+		}
+	]
+}
